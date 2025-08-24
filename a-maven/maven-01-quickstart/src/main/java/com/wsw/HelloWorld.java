@@ -9,4 +9,8 @@ public class HelloWorld {
     public void hello() {
         System.out.println("Hello world!!!");
     }
+
+    public int add(int number01, int number02) {
+        return number01 + number02;
+    }
 }
