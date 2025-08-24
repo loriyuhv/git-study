@@ -16,4 +16,11 @@ class HelloWorldTest {
         int add = helloWorld.add(1, 2);
         System.out.println(add);
     }
+
+    @Test
+    void divide() {
+        HelloWorld helloWorld = new HelloWorld();
+        double divide = helloWorld.divide(1, 2);
+        System.out.println(divide);
+    }
 }
