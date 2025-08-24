@@ -11,4 +11,11 @@ class HelloWorldTest {
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.hello();
     }
+
+    @Test
+    void add() {
+        HelloWorld helloWorld = new HelloWorld();
+        int add = helloWorld.add(1, 2);
+        System.out.println(add);
+    }
 }
