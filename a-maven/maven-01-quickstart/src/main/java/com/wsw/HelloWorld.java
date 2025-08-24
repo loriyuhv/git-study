@@ -13,4 +13,8 @@ public class HelloWorld {
     public int add(int number01, int number02) {
         return number01 + number02;
     }
+
+    public double divide(double number01, double number02) {
+        return number01 / number02;
+    }
 }
